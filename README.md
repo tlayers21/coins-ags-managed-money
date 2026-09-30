@@ -1,4 +1,4 @@
-# CFTC Managed Money — Net Long: CBOT Corn, SRW Wheat, Soybeans
+# CFTC Managed Money - Net Long: CBOT Corn, SRW Wheat, Soybeans
 
 A Jupyter notebook that pulls weekly CFTC Managed Money positions for corn, SRW wheat, and
 soybeans and charts net long for 2026 (with and without WASDE release windows), the full history since 2016, and a year-by-year seasonal overlay.
@@ -27,7 +27,6 @@ cd coins-ags-managed-money
    uv sync
    ```
 
-   Then choose **Run → Run All Cells**. The data downloads from the CFTC public API, and no API
-   key is needed.
+   Then choose **Run, then Run All Cells**. The data downloads from the CFTC public API (no API key is needed).
 
    **VS Code:** open the notebook, click **Select Kernel**, and look for your virtual environment.
