@@ -5,21 +5,13 @@ soybeans and charts net long for 2026 (with and without WASDE release windows), 
 
 ## Get the code
 
-**Just want to run it?** Clone the repo:
+Fork [tlayers21/coins-ags-managed-money](https://github.com/tlayers21/coins-ags-managed-money)
+on GitHub (**Fork** button, top right), then clone your fork:
 
 ```bash
-git clone https://github.com/<owner>/managed_money.git
-cd managed_money
+git clone https://github.com/<your-username>/coins-ags-managed-money.git
+cd coins-ags-managed-money
 ```
-
-**Want to contribute?** Fork the repo on GitHub, then clone your fork:
-
-```bash
-git clone https://github.com/<your-username>/managed_money.git
-cd managed_money
-```
-
-Push changes to a branch on your fork and open a pull request.
 
 ## Set up
 
@@ -35,21 +27,7 @@ Push changes to a branch on your fork and open a pull request.
    uv sync
    ```
 
-3. Register the project's Jupyter kernel (one time). The notebook runs on this kernel so it uses
-   the project's `.venv` and not a global Python:
-
-   ```bash
-   uv run python -m ipykernel install --sys-prefix --name managed-money --display-name "Python (managed-money)"
-   ```
-
-4. Open the notebook:
-
-   ```bash
-   uv run jupyter lab managed_money.ipynb
-   ```
-
    Then choose **Run → Run All Cells**. The data downloads from the CFTC public API, and no API
    key is needed.
 
-   **VS Code:** open the notebook, click **Select Kernel** (top right), and choose
-   **Python (managed-money)** or `.venv/bin/python`.
+   **VS Code:** open the notebook, click **Select Kernel**, and look for your virtual environment.
