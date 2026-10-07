@@ -8,6 +8,7 @@ dependencies = [
     "matplotlib>=3.11.2",
     "pandas>=2.2",
     "requests>=2.32",
+    "yfinance>=1.7.0",
 ]
 
 [dependency-groups]
